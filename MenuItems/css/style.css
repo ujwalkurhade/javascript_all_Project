@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(44, 218, 32);
+}
+
+.sub-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.header_part {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.header_part > .serachBar
+{
+    width: 60%;
+    padding:15px;
+}
+
+
+.header_part > button {
+    padding: 12px 15px;
+}
+
+.menuItemsBtn > button {
+    padding: 12px 30px;
+}
+
+
+ 
+/* Card */
+
+
+
+.card {
+
+    flex: calc(30% ); /* Adjust width for 3 cards per row, considering gap */
+   width: 30%; /* Adjust max-width for responsiveness */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  
+   
+}
+ 
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+
+
+
+/* Add Card Model */
+
+.form-container {
+    position: fixed;
+    z-index: 1;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+     margin-left: 36rem;
+
+     display: none;
+ 
+
+}
+.form-container label,
+.form-container input,
+.form-container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+.form-container label {
+    font-weight: bold;
+}
+.form-container input[type="file"] {
+    margin-top: 5px;
+}
+.form-container textarea {
+    height: 100px;
+}
+.form-container button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.form-container button.cancel {
+    background-color: #f44336;
+}

@@ -1,0 +1,28 @@
+
+.main_content
+{
+    width: 60%;
+   margin:  0 auto;
+}
+
+.block
+{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h2
+{
+    border: 2px solid purple;
+    cursor: pointer;
+     
+}
+
+p{
+    display: none;
+}
+ 
+
+

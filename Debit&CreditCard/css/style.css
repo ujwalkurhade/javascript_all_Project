@@ -1,0 +1,185 @@
+
+.container
+{
+    display: flex;
+     justify-content: space-around;
+}
+
+
+
+.debit-card {
+    width: 300px;
+    height: 190px;
+    perspective: 1000px;
+  }
+  
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card-front {
+    background-color: #1565c0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+   
+  
+  .chip {
+    background: radial-gradient(circle at 50% 50%, #7f8c8d, #434949);
+    height: 20px;
+    width: 15%;
+    border-radius: 4px;
+  }
+  
+  .card-number {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-name, .card-expiry {
+    font-size: 14px;
+  }
+  
+ 
+ 
+
+
+
+
+
+  .card {
+    position: relative;
+    width: 350px;
+    height: 220px;
+    background-color: #d42d08;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .magnetic-stripe {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #444;
+  }
+  
+  .signature-panel {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    width: 90%;
+    height: 50px;
+    background-color: #eee;
+  }
+  
+  .signature {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: #ddd;
+  }
+  
+  .cvv-code {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    width: 80px;
+    height: 40px;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cvv-code label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .cvv-code .cvv-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+
+.cvv-number
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+
+    /* Form Details */
+
+
+
+    .card-form {
+        background-color: #fff;
+        width: 400px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .card-form input[type="text"],
+    .card-form input[type="number"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .card-form .expiry-cvv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-form input[type="number"] {
+        width: 100px;
+    }
+
+    .card-form input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 12px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .card-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }

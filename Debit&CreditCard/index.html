@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Card Details  -->
+
+        <div class="card_box">
+
+            <div class="debit-card">
+                <div class="card-front">
+                    <div class="chip"></div>
+                    <div class="card-number" ><p id="displayCardNo">1234 5678 9012 3456</p></div>
+                    <div class="card-details">
+                        <div class="card-name"><p id="displayCardName">Jone Doe</p></div>
+                        <div class="card-expiry"><p id="displayMonth" >12/25</p></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br><br><br>
+
+
+            <div class="card">
+                <div class="magnetic-stripe"></div>
+                <div class="signature-panel">
+                    <div class="signature"></div>
+                </div>
+                <div class="cvv-code">
+                    <label>CVV</label>
+                    <div class="cvv-number"><p id="displayCVV">123</p></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Form Details  -->
+
+        <div class="form_box">
+
+
+            <div class="card-form">
+                <form  >
+                    <label for="cardNumber">Debit Card Number:</label>
+                    <input type="text" id="cardNumber" name="cardNum" placeholder="Enter card number" value="">
+
+                    <label for="cardName">Name of Holder:</label>
+                    <input type="text" id="cardName" name="cardName" placeholder="Enter cardholder name" value="" >
+
+                    <div class="expiry-cvv">
+                        <label for="expiryMonth">Expiry Date (MM/YYYY):</label>
+                        <input type="number" id="expiryMonth" name="expiryMonth" placeholder="MM" min="1" max="12"
+                        value="" >
+                        <input type="number" id="expiryYear" name="expiryYear" placeholder="YYYY" min="2024" max="2050"
+                             >
+                    </div>
+
+                    <label for="cvv" >CVV:</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="Enter CVV"  value="">
+
+                    <input type="submit" value="Submit"  onclick="return submitCardDetails()">
+                </form>
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

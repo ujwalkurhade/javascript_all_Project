@@ -1,0 +1,114 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-section
+{
+    
+    width: 300px;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    right: 0;
+}
+
+.menu_btn
+{
+    position: absolute;
+    z-index: -1;
+    left: 12rem;
+    top: 5rem;
+   
+}
+
+.menu_open
+{
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+
+.navbar
+{
+    
+    background-color: white;
+    width: 0px;
+    height: 100vh;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    
+    
+}
+
+.navbar ul:first-child
+{
+    position: relative;
+    top: 50px;
+}
+
+ul {
+
+    
+    list-style-type: none;
+}
+
+
+ul li{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.submenus  
+{
+    display: none;
+   
+}
+
+
+ul li:hover
+{
+    background-color: darkorange;;
+}
+
+
+.innermenu:hover > .submenus
+{
+    display: block;
+    transition-duration: 0.4s;
+
+}
+
+ 
+.cross-btn
+{
+    border: none;
+    background-color: white;
+   padding: 2px 5px; 
+   position: relative;
+   margin-right: 200px;
+    
+}
+
+
+.cross-btn, .fa-close
+{
+     position: relative;
+     left: 2px;
+     top: -2px;
+}
+
+
+
+

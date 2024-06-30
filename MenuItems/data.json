@@ -1,0 +1,59 @@
+ 
+    [
+
+        {
+            "id" : 1,
+            "prodName" : "Tshirt",
+            "produrl" : "img/tshirt.jpg",
+            "prodDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis praesentium iste laborum unde cum mollitia ut sit veritatis odio quas?",
+            "prodPrice" : 250,
+            "gender" : "men"
+
+        },
+        {
+            "id" : 2,
+            "prodName" : "Jeans",
+            "produrl" : "img/jeans.jpg",
+            "prodDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis praesentium iste laborum unde cum mollitia ut sit veritatis odio quas?",
+            "prodPrice" : 300,
+            "gender" : "men"
+        }
+        ,
+        {
+            "id" : 3,
+            "prodName" : "Top",
+            "produrl" : "img/top.jpg",
+            "prodDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis praesentium iste laborum unde cum mollitia ut sit veritatis odio quas?",
+            "prodPrice" : 450,
+            "gender" : "women"
+        }
+        ,
+        {
+            "id" : 4,
+            "prodName" : "Kurta",
+            "produrl" : "img/Kurtis.jpg",
+            "prodDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis praesentium iste laborum unde cum mollitia ut sit veritatis odio quas?",
+            "prodPrice" : 250,
+            "gender" : "women"
+        }
+        ,
+        {
+            "id" : 5,
+            "prodName" : "Skirt",
+            "produrl" : "img/Skeait.jpg",
+            "prodDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis praesentium iste laborum unde cum mollitia ut sit veritatis odio quas?",
+            "prodPrice" : 390,
+            "gender" : "women"
+        }
+        ,
+        {
+            "id" : 6,
+            "prodName" : "Shorts",
+            "produrl" : "img/Shorts.jpg",
+            "prodDesc" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis praesentium iste laborum unde cum mollitia ut sit veritatis odio quas?",
+            "prodPrice" : 550,
+            "gender" : "men"
+        }
+
+    ]
+ 

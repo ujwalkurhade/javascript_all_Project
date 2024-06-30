@@ -1,0 +1,36 @@
+.container
+{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-container
+{
+    width: 50%;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+
+   background-color: darkorange;
+  overflow: hidden;
+
+}
+
+ 
+.sub-container> .imgBlock
+{
+    width: 100%;
+}
+
+.imgBlock> img
+{
+   width: 100%;
+   
+
+}
+ 
+ 
